@@ -14,34 +14,27 @@
 }
 
 body {
+  box-sizing: border-box;
   margin: auto;
+  padding: 1ex;
 }
 
-figure {
+nav {
   margin: auto;
   padding-block-end: 3rem;
 }
 
-em {
-  font-family: cursive;
+data {
+  font-weight: 800;
 }
 
-blockquote {
-  align-items: center;
-  display: flex;
-  flex-flow: column;
+hr {
+  border: 0;
+  border-top: thick dotted magenta;
+}
+
+header {
+  box-sizing: border-box;
   font-size: 2em;
   font-weight: bold;
-  justify-content: center;
-  margin-block-start: 33vh;
-  margin-block-end: 33vh;
-}
-
-figcaption {
-  max-width: 10em;
-  position: absolute;
-  top: 100vh;
-  padding: 5vmin;
-  font-family: monospace;
-  font-size: .5rem;
 }
